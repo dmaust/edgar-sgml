@@ -1,0 +1,13 @@
+-- SGML Open catalog: lets a parser find the declaration and the DTD.
+   onsgmls -s -c dtd/catalog header.sgml                                  --
+
+OVERRIDE YES
+SGMLDECL "edgar.dcl"
+
+PUBLIC "-//edgar-sgml//DTD EDGAR Submission Header//EN" "edgar-submission.dtd"
+
+-- A file without a document type declaration is read as the first of these
+   whose name is its first tag. --
+DOCTYPE SUBMISSION "edgar-submission.dtd"
+DOCTYPE SEC-HEADER "edgar-submission.dtd"
+DOCTYPE IMS-HEADER "edgar-submission.dtd"

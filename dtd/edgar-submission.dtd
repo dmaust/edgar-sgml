@@ -1,0 +1,291 @@
+<!--
+  EDGAR submission headers: document type definition.
+
+  Three document types share it:
+
+    SUBMISSION   a member of SEC's daily archives (YYYYMMDD.nc.tar.gz) and of
+                 the dissemination feed: a header, then the filing's documents
+    SEC-HEADER   the file {accession}.hdr.sgml in a filing's folder on
+                 www.sec.gov: the same header, without the documents
+    IMS-HEADER   the same file for a filing of EDGAR's first years (seen on
+                 one of 1994; those of 1996 begin SEC-HEADER)
+
+  It starts from the DTD SEC prints in section 3.4 of the EDGAR Public
+  Dissemination Service (PDS) Technical Specification, which no parser accepts
+  as printed and which lacks many of the tags SEC sends. What is added or
+  changed here was found in real headers; docs/differences.md lists each
+  change with the evidence for it, and sec/ holds SEC's text as printed.
+
+  Use it with the SGML declaration beside it (edgar.dcl): the tags are longer
+  than the eight characters SGML allows by default, and an ampersand in a
+  header is not the start of an entity reference.
+
+  A document's text is not described here. Take what stands between <TEXT>
+  and </TEXT> out before parsing: today it is HTML, XML or an encoded file,
+  none of which this DTD can read (see docs/files.md).
+-->
+
+<!-- ===================== Entities, as SEC declares them =====================
+
+     No header refers to them. Under the declaration beside this file a
+     reference would be written &&&amp; (see edgar.dcl). -->
+
+<!ENTITY lt  "<" >
+<!ENTITY amp "&" >
+
+<!-- ============================ The header ============================ -->
+
+<!-- What stands before the parties. The order is SEC's; tags SEC's print
+     lacks stand where real headers have them. -->
+<!ENTITY % front
+    "correction?,
+     timestamp?,
+     paper?,
+     private-to-public?,
+     accession-number,
+     deletion?,
+     type,
+     category?,
+     confirming-copy?,
+     public-document-count,
+     previous-accession-number?,
+     calendar-year-ending?,
+     rule*,
+     resource-ext-issuer?,
+     reference-462B?,
+     references-429*,
+     period?,
+     depositor-cik?,
+     sponsor-cik?,
+     items*,
+     ma-i_individual?,
+     filing-date,
+     public-rel-date?,
+     date-of-filing-date-change?,
+     effectiveness-date?,
+     action-date?,
+     received-date?,
+     sros*,
+     group-members*,
+     abs-rule?,
+     period-start?,
+     no-initial-period-activity?,
+     no-quarterly-activity?,
+     no-annual-activity?,
+     securitizer-file-number?,
+     registered-entity?,
+     abs-asset-class?,
+     abs-sub-asset-class?,
+     issuing-entity-name?" >
+
+<!-- The parties to a filing, in whatever order and however often. -->
+<!ENTITY % party
+    "filer | filed-by | serial-company | subject-company | reporting-owner |
+     issuer | filed-for | depositor | securitizer | issuing_entity |
+     underwriter" >
+
+<!-- What stands after the parties. -->
+<!ENTITY % back
+    "public-reference-acc?,
+     series-and-classes-contracts-data?,
+     is-filer-a-new-registrant?,
+     is-filer-a-well-known-seasoned-issuer?,
+     filed-pursuant-to-general-instruction-a2?,
+     is-fund-24f2-eligible?" >
+
+<!ENTITY % header "%front;, (%party;)*, %back;" >
+
+<!ELEMENT submission               - - (%header;, document+) >
+<!ELEMENT (sec-header, ims-header) - - (header-file, acceptance-datetime?, %header;) >
+
+<!-- The first line of a .hdr.sgml file carries its own name and a date after
+     the opening tag ("<SEC-HEADER>0000064803-26-000010.hdr.sgml : 20260210").
+     SEC gives that text no tag; HEADER-FILE is this DTD's name for it, and
+     its tags are never written. -->
+<!ELEMENT header-file          o o (#PCDATA) >
+<!ELEMENT acceptance-datetime  - o (#PCDATA) >
+
+<!-- Flags: present or absent, with no value. -->
+<!ELEMENT (correction,
+           paper,
+           private-to-public,
+           deletion,
+           confirming-copy,
+           transfer-add,
+           transfer-delete)  - o EMPTY >
+
+<!ELEMENT (timestamp,
+           accession-number,
+           type,
+           category,
+           public-document-count,
+           previous-accession-number,
+           calendar-year-ending,
+           resource-ext-issuer,
+           ma-i_individual,
+           reference-462B,
+           references-429,
+           period,
+           depositor-cik,
+           sponsor-cik,
+           items,
+           filing-date,
+           public-rel-date,
+           date-of-filing-date-change,
+           effectiveness-date,
+           action-date,
+           received-date,
+           sros,
+           group-members,
+           abs-rule,
+           period-start,
+           no-initial-period-activity,
+           no-quarterly-activity,
+           no-annual-activity,
+           securitizer-file-number,
+           registered-entity,
+           abs-asset-class,
+           abs-sub-asset-class,
+           issuing-entity-name,
+           public-reference-acc,
+           is-filer-a-new-registrant,
+           is-filer-a-well-known-seasoned-issuer,
+           filed-pursuant-to-general-instruction-a2,
+           is-fund-24f2-eligible)  - o (#PCDATA) >
+
+<!-- A rule a specialized disclosure report (Form SD) is filed under, and the
+     items of the form it answers. -->
+<!ELEMENT rule  - - (rule-name, item*) >
+<!ELEMENT item  - - (item-number, item-period?) >
+<!ELEMENT (rule-name, item-number, item-period)  - o (#PCDATA) >
+
+<!-- ============================ The parties ============================ -->
+
+<!ENTITY % party-data
+    "deletion?,
+     transfer-add?,
+     transfer-delete?,
+     (company-data | owner-data),
+     filing-values*,
+     business-address?,
+     mail-address?,
+     former-company*,
+     former-name*" >
+
+<!ELEMENT (%party;)  - - (%party-data;) >
+
+<!ELEMENT (company-data, owner-data)  - -
+    (conformed-name,
+     cik,
+     assigned-sic?,
+     organization-name?,
+     relationship?,
+     irs-number?,
+     state-of-incorporation?,
+     fiscal-year-end?,
+     legal-entity-identifier?) >
+
+<!ELEMENT filing-values  - -
+    (deletion?,
+     transfer-add?,
+     transfer-delete?,
+     form-type,
+     act?,
+     file-number?,
+     film-number?) >
+
+<!ENTITY % address
+    "address-is-a-non-us-location?,
+     street1?,
+     street2?,
+     city?,
+     state?,
+     non-us-state-territory?,
+     province-country?,
+     zip?" >
+
+<!ELEMENT business-address  - - (%address;, phone?) >
+<!ELEMENT mail-address      - - (%address;) >
+
+<!ELEMENT (former-company, former-name)  - - (former-conformed-name, date-changed) >
+
+<!ELEMENT (conformed-name,
+           cik,
+           assigned-sic,
+           organization-name,
+           relationship,
+           irs-number,
+           state-of-incorporation,
+           fiscal-year-end,
+           legal-entity-identifier,
+           form-type,
+           act,
+           file-number,
+           film-number,
+           address-is-a-non-us-location,
+           street1,
+           street2,
+           city,
+           state,
+           non-us-state-territory,
+           province-country,
+           zip,
+           phone,
+           former-conformed-name,
+           date-changed)  - o (#PCDATA) >
+
+<!-- ================== A fund's series and classes ================== -->
+
+<!ELEMENT series-and-classes-contracts-data  - -
+    (new-series-and-classes-contracts?,
+     existing-series-and-classes-contracts?,
+     merger-series-and-classes-contracts?) >
+
+<!ELEMENT new-series-and-classes-contracts       - - (owner-cik, new-series*, new-classes-contracts*) >
+<!ELEMENT existing-series-and-classes-contracts  - - (owner-cik?, series*) >
+<!ELEMENT merger-series-and-classes-contracts    - - (merger*) >
+
+<!ELEMENT (new-series, new-classes-contracts)  - - (series-id, series-name, class-contract*) >
+<!ELEMENT series          - - (owner-cik?, series-id, series-name, class-contract*) >
+<!ELEMENT class-contract  - - (class-contract-id, class-contract-name, class-contract-ticker-symbol?) >
+
+<!ELEMENT merger          - - (acquiring-data, target-data*) >
+<!ELEMENT acquiring-data  - - (cik, series) >
+<!ELEMENT target-data     - - (cik, series*) >
+
+<!ELEMENT (owner-cik,
+           series-id,
+           series-name,
+           class-contract-id,
+           class-contract-name,
+           class-contract-ticker-symbol)  - o (#PCDATA) >
+
+<!-- ============================ Documents ============================ -->
+
+<!ELEMENT document  - - (type, sequence, filename?, description?, flawed?, text?) >
+
+<!ELEMENT (sequence, filename, description)  - o (#PCDATA) >
+<!ELEMENT flawed  - o EMPTY >
+
+<!-- A document's text, as SEC's print describes the plain-text filings of
+     the 1990s: paragraphs with tables, page breaks and footnote marks. It is
+     kept so that the element is declared; see the note at the top. -->
+
+<!ENTITY % footnotes
+    "f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10 | f11 | f12 | f13 | f14 |
+     f15 | f16 | f17 | f18 | f19 | f20 | f21 | f22 | f23 | f24 | f25 | f26 |
+     f27 | f28 | f29 | f30 | f31 | f32 | f33 | f34 | f35 | f36 | f37 | f38 |
+     f39 | f40 | f41 | f42 | f43 | f44 | f45 | f46 | f47 | f48 | f49 | f50 |
+     f51 | f52 | f53 | f54 | f55 | f56 | f57 | f58 | f59 | f60 | f61 | f62 |
+     f63 | f64 | f65 | f66 | f67 | f68 | f69 | f70 | f71 | f72 | f73 | f74 |
+     f75 | f76 | f77 | f78 | f79 | f80 | f81 | f82 | f83 | f84 | f85 | f86 |
+     f87 | f88 | f89 | f90 | f91 | f92 | f93 | f94 | f95 | f96 | f97 | f98 |
+     f99" >
+<!ENTITY % hilites "table | page | %footnotes;" >
+
+<!ELEMENT text   - - (#PCDATA | %hilites;)* >
+<!ELEMENT table  - - (#PCDATA | page | caption | s | c | %footnotes; | fn)+ -(table) >
+<!ELEMENT (caption, s, c, fn)  - o (#PCDATA) >
+<!ELEMENT (%footnotes;)        - o EMPTY >
+<!ELEMENT page                 - o EMPTY >
+<!ELEMENT (pdf, xml, xbrl)     - o EMPTY >

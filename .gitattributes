@@ -1,0 +1,5 @@
+# Headers are kept byte for byte as SEC sent them: some end their lines with a
+# bare carriage return, and git must not "fix" that.
+tests/fixtures/** -text
+sec/dtd-as-printed.txt -text
+*.pdf binary

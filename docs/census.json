@@ -1,0 +1,3266 @@
+{
+ "headers": 14876,
+ "by_year": {
+  "1996": 652,
+  "2001": 715,
+  "2005": 3074,
+  "2012": 5849,
+  "2019": 1763,
+  "2026": 2823
+ },
+ "roots": {
+  "SUBMISSION": 14876
+ },
+ "tags": {
+  "ABS-ASSET-CLASS": {
+   "headers": 132,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "Commercial mortgages"
+  },
+  "ABS-RULE": {
+   "headers": 86,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "RULE-15GA1"
+  },
+  "ACCESSION-NUMBER": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "0000000000-96-001264"
+  },
+  "ACQUIRING-DATA": {
+   "headers": 5,
+   "years": [
+    "2026"
+   ],
+   "example": ""
+  },
+  "ACT": {
+   "headers": 14736,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "34"
+  },
+  "ACTION-DATE": {
+   "headers": 28,
+   "years": [
+    "2012",
+    "2019"
+   ],
+   "example": "20120515"
+  },
+  "ADDRESS-IS-A-NON-US-LOCATION": {
+   "headers": 171,
+   "years": [
+    "2026"
+   ],
+   "example": "YES"
+  },
+  "ASSIGNED-SIC": {
+   "headers": 10834,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "6021"
+  },
+  "BUSINESS-ADDRESS": {
+   "headers": 14745,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "CATEGORY": {
+   "headers": 1,
+   "years": [
+    "2019"
+   ],
+   "example": "STAFF LETTER"
+  },
+  "CIK": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "0000315066"
+  },
+  "CITY": {
+   "headers": 14865,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "NEW YORK"
+  },
+  "CLASS-CONTRACT": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "CLASS-CONTRACT-ID": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "C000026841"
+  },
+  "CLASS-CONTRACT-NAME": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "Class A"
+  },
+  "CLASS-CONTRACT-TICKER-SYMBOL": {
+   "headers": 355,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "SIUSX"
+  },
+  "COMPANY-DATA": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "CONFIRMING-COPY": {
+   "headers": 7,
+   "years": [
+    "1996",
+    "2005",
+    "2012"
+   ],
+   "example": ""
+  },
+  "CONFORMED-NAME": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "FMR CORP"
+  },
+  "CORRECTION": {
+   "headers": 163,
+   "years": [
+    "1996",
+    "2001",
+    "2005"
+   ],
+   "example": ""
+  },
+  "DATE-CHANGED": {
+   "headers": 6985,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "19920703"
+  },
+  "DATE-OF-FILING-DATE-CHANGE": {
+   "headers": 13286,
+   "years": [
+    "1996",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "20120515"
+  },
+  "DELETION": {
+   "headers": 27,
+   "years": [
+    "2005"
+   ],
+   "example": ""
+  },
+  "DEPOSITOR": {
+   "headers": 6,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "DEPOSITOR-CIK": {
+   "headers": 47,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": "0001182534"
+  },
+  "DESCRIPTION": {
+   "headers": 11561,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "8-K"
+  },
+  "DOCUMENT": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "EFFECTIVENESS-DATE": {
+   "headers": 4368,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "20120515"
+  },
+  "EXISTING-SERIES-AND-CLASSES-CONTRACTS": {
+   "headers": 615,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "FILE-NUMBER": {
+   "headers": 14736,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "001-04105"
+  },
+  "FILED-BY": {
+   "headers": 717,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "FILED-FOR": {
+   "headers": 46,
+   "years": [
+    "2012",
+    "2019"
+   ],
+   "example": ""
+  },
+  "FILED-PURSUANT-TO-GENERAL-INSTRUCTION-A2": {
+   "headers": 2,
+   "years": [
+    "2026"
+   ],
+   "example": "N"
+  },
+  "FILENAME": {
+   "headers": 14224,
+   "years": [
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "ps2866.htm"
+  },
+  "FILER": {
+   "headers": 10537,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "FILING-DATE": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "20010613"
+  },
+  "FILING-VALUES": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "FILM-NUMBER": {
+   "headers": 14731,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "96535430"
+  },
+  "FISCAL-YEAR-END": {
+   "headers": 13598,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "1231"
+  },
+  "FLAWED": {
+   "headers": 10,
+   "years": [
+    "1996"
+   ],
+   "example": ""
+  },
+  "FORM-TYPE": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "8-K"
+  },
+  "FORMER-COMPANY": {
+   "headers": 6932,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "FORMER-CONFORMED-NAME": {
+   "headers": 6985,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "NCNB CORP"
+  },
+  "FORMER-NAME": {
+   "headers": 119,
+   "years": [
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "GROUP-MEMBERS": {
+   "headers": 50,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "MACANDREWS & FORBES GROUP, INCORPORATED"
+  },
+  "IRS-NUMBER": {
+   "headers": 14583,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "161144965"
+  },
+  "IS-FILER-A-NEW-REGISTRANT": {
+   "headers": 2,
+   "years": [
+    "2026"
+   ],
+   "example": "Y"
+  },
+  "IS-FILER-A-WELL-KNOWN-SEASONED-ISSUER": {
+   "headers": 2,
+   "years": [
+    "2026"
+   ],
+   "example": "N"
+  },
+  "IS-FUND-24F2-ELIGIBLE": {
+   "headers": 1,
+   "years": [
+    "2026"
+   ],
+   "example": "N"
+  },
+  "ISSUER": {
+   "headers": 3413,
+   "years": [
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "ISSUING-ENTITY-NAME": {
+   "headers": 4,
+   "years": [
+    "2019"
+   ],
+   "example": "Residential Mortgage Loan Trust 2019-2"
+  },
+  "ITEMS": {
+   "headers": 2277,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "9.01"
+  },
+  "LEGAL-ENTITY-IDENTIFIER": {
+   "headers": 11,
+   "years": [
+    "2026"
+   ],
+   "example": "213800ZNSR7AIJZ2J557"
+  },
+  "MA-I_INDIVIDUAL": {
+   "headers": 2,
+   "years": [
+    "2019"
+   ],
+   "example": "HUNT,DAVID,LEE,"
+  },
+  "MAIL-ADDRESS": {
+   "headers": 14338,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "MERGER": {
+   "headers": 5,
+   "years": [
+    "2026"
+   ],
+   "example": ""
+  },
+  "MERGER-SERIES-AND-CLASSES-CONTRACTS": {
+   "headers": 5,
+   "years": [
+    "2026"
+   ],
+   "example": ""
+  },
+  "NEW-CLASSES-CONTRACTS": {
+   "headers": 3,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "NEW-SERIES": {
+   "headers": 19,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "NEW-SERIES-AND-CLASSES-CONTRACTS": {
+   "headers": 22,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "NO-ANNUAL-ACTIVITY": {
+   "headers": 76,
+   "years": [
+    "2012"
+   ],
+   "example": "N"
+  },
+  "NO-INITIAL-PERIOD-ACTIVITY": {
+   "headers": 3,
+   "years": [
+    "2012"
+   ],
+   "example": "N"
+  },
+  "NO-QUARTERLY-ACTIVITY": {
+   "headers": 76,
+   "years": [
+    "2012"
+   ],
+   "example": "Y"
+  },
+  "NON-US-STATE-TERRITORY": {
+   "headers": 33,
+   "years": [
+    "2026"
+   ],
+   "example": "N4"
+  },
+  "ORGANIZATION-NAME": {
+   "headers": 2822,
+   "years": [
+    "2026"
+   ],
+   "example": "02 Finance"
+  },
+  "OWNER-CIK": {
+   "headers": 637,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "0000088525"
+  },
+  "OWNER-DATA": {
+   "headers": 3413,
+   "years": [
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "PAGE": {
+   "headers": 1,
+   "years": [
+    "1996"
+   ],
+   "example": ""
+  },
+  "PAPER": {
+   "headers": 504,
+   "years": [
+    "2005",
+    "2012",
+    "2019"
+   ],
+   "example": ""
+  },
+  "PERIOD": {
+   "headers": 11078,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "19951231"
+  },
+  "PERIOD-START": {
+   "headers": 329,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "20261231"
+  },
+  "PHONE": {
+   "headers": 14548,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "6175706339"
+  },
+  "PRIVATE-TO-PUBLIC": {
+   "headers": 169,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "PROVINCE-COUNTRY": {
+   "headers": 171,
+   "years": [
+    "2026"
+   ],
+   "example": "A6"
+  },
+  "PUBLIC-DOCUMENT-COUNT": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "1"
+  },
+  "PUBLIC-REFERENCE-ACC": {
+   "headers": 41,
+   "years": [
+    "2012",
+    "2019"
+   ],
+   "example": "0001493152-18-010319"
+  },
+  "PUBLIC-REL-DATE": {
+   "headers": 6,
+   "years": [
+    "2026"
+   ],
+   "example": "20261120"
+  },
+  "RECEIVED-DATE": {
+   "headers": 28,
+   "years": [
+    "2012",
+    "2019"
+   ],
+   "example": "20120515"
+  },
+  "REFERENCE-462B": {
+   "headers": 4,
+   "years": [
+    "1996",
+    "2005"
+   ],
+   "example": "333-00937"
+  },
+  "REFERENCES-429": {
+   "headers": 11,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012"
+   ],
+   "example": "033-60572"
+  },
+  "REGISTERED-ENTITY": {
+   "headers": 6,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": "N"
+  },
+  "RELATIONSHIP": {
+   "headers": 46,
+   "years": [
+    "2001",
+    "2012"
+   ],
+   "example": "DIRECTOR"
+  },
+  "REPORTING-OWNER": {
+   "headers": 3574,
+   "years": [
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "SECURITIZER": {
+   "headers": 6,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "SEQUENCE": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "1"
+  },
+  "SERIAL-COMPANY": {
+   "headers": 4,
+   "years": [
+    "2005"
+   ],
+   "example": ""
+  },
+  "SERIES": {
+   "headers": 620,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "SERIES-AND-CLASSES-CONTRACTS-DATA": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "SERIES-ID": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "S000009770"
+  },
+  "SERIES-NAME": {
+   "headers": 642,
+   "years": [
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "U.S. INTERMEDIATE BOND"
+  },
+  "SPONSOR-CIK": {
+   "headers": 46,
+   "years": [
+    "2019",
+    "2026"
+   ],
+   "example": "0000833733"
+  },
+  "SROS": {
+   "headers": 652,
+   "years": [
+    "1996"
+   ],
+   "example": "NONE"
+  },
+  "STATE": {
+   "headers": 14739,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "NY"
+  },
+  "STATE-OF-INCORPORATION": {
+   "headers": 13213,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "DE"
+  },
+  "STREET1": {
+   "headers": 14868,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "82 DEVONSHIRE ST"
+  },
+  "STREET2": {
+   "headers": 8505,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "SUITE 400"
+  },
+  "SUBJECT-COMPANY": {
+   "headers": 880,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "SUBMISSION": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "TARGET-DATA": {
+   "headers": 5,
+   "years": [
+    "2026"
+   ],
+   "example": ""
+  },
+  "TEXT": {
+   "headers": 14713,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": ""
+  },
+  "TIMESTAMP": {
+   "headers": 332,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "19960315:100555"
+  },
+  "TRANSFER-ADD": {
+   "headers": 12,
+   "years": [
+    "2001"
+   ],
+   "example": ""
+  },
+  "TRANSFER-DELETE": {
+   "headers": 12,
+   "years": [
+    "2001"
+   ],
+   "example": ""
+  },
+  "TYPE": {
+   "headers": 14876,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "10-Q"
+  },
+  "ZIP": {
+   "headers": 14790,
+   "years": [
+    "1996",
+    "2001",
+    "2005",
+    "2012",
+    "2019",
+    "2026"
+   ],
+   "example": "10017"
+  }
+ },
+ "containers": {
+  "ACQUIRING-DATA": {
+   "count": 11,
+   "children": {
+    "CIK": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    },
+    "SERIES": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    }
+   }
+  },
+  "BUSINESS-ADDRESS": {
+   "count": 18361,
+   "children": {
+    "ADDRESS-IS-A-NON-US-LOCATION": {
+     "in": 160,
+     "times": 160,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "CITY": {
+     "in": 17958,
+     "times": 17958,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "NON-US-STATE-TERRITORY": {
+     "in": 34,
+     "times": 34,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "PHONE": {
+     "in": 17951,
+     "times": 17951,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "PROVINCE-COUNTRY": {
+     "in": 160,
+     "times": 160,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "STATE": {
+     "in": 17778,
+     "times": 17778,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "STREET1": {
+     "in": 17961,
+     "times": 17961,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "STREET2": {
+     "in": 8650,
+     "times": 8650,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000003153-96-000009.nc"
+    },
+    "ZIP": {
+     "in": 17796,
+     "times": 17796,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "CLASS-CONTRACT": {
+   "count": 3948,
+   "children": {
+    "CLASS-CONTRACT-ID": {
+     "in": 3948,
+     "times": 3948,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "CLASS-CONTRACT-NAME": {
+     "in": 3948,
+     "times": 3948,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "CLASS-CONTRACT-TICKER-SYMBOL": {
+     "in": 2417,
+     "times": 2417,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    }
+   }
+  },
+  "COMPANY-DATA": {
+   "count": 17479,
+   "children": {
+    "ASSIGNED-SIC": {
+     "in": 12486,
+     "times": 12486,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "CIK": {
+     "in": 17479,
+     "times": 17479,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "CONFORMED-NAME": {
+     "in": 17479,
+     "times": 17479,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FISCAL-YEAR-END": {
+     "in": 15703,
+     "times": 15703,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "IRS-NUMBER": {
+     "in": 16826,
+     "times": 16826,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "LEGAL-ENTITY-IDENTIFIER": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002164784-26-000001.nc"
+    },
+    "ORGANIZATION-NAME": {
+     "in": 3577,
+     "times": 3577,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001918704-26-036308.nc"
+    },
+    "RELATIONSHIP": {
+     "in": 46,
+     "times": 46,
+     "most": 1,
+     "years": [
+      "2001",
+      "2012"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "STATE-OF-INCORPORATION": {
+     "in": 15228,
+     "times": 15228,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "DEPOSITOR": {
+   "count": 6,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "FILING-VALUES": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    }
+   }
+  },
+  "DOCUMENT": {
+   "count": 88435,
+   "children": {
+    "DESCRIPTION": {
+     "in": 80023,
+     "times": 80023,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILENAME": {
+     "in": 86725,
+     "times": 86725,
+     "most": 1,
+     "years": [
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000003333-01-500008.nc"
+    },
+    "FLAWED": {
+     "in": 10,
+     "times": 10,
+     "most": 1,
+     "years": [
+      "1996"
+     ],
+     "example": "19960315.nc.tar.gz:0000010427-96-000014.nc"
+    },
+    "PAGE": {
+     "in": 1,
+     "times": 1,
+     "most": 1,
+     "years": [
+      "1996"
+     ],
+     "example": "19960315.nc.tar.gz:0000025885-96-000006.nc"
+    },
+    "SEQUENCE": {
+     "in": 88435,
+     "times": 88435,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "TEXT": {
+     "in": 88161,
+     "times": 88161,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "TYPE": {
+     "in": 88435,
+     "times": 88435,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "EXISTING-SERIES-AND-CLASSES-CONTRACTS": {
+   "count": 615,
+   "children": {
+    "SERIES": {
+     "in": 615,
+     "times": 1680,
+     "most": 63,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    }
+   }
+  },
+  "FILED-BY": {
+   "count": 717,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 688,
+     "times": 688,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 717,
+     "times": 717,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILING-VALUES": {
+     "in": 717,
+     "times": 717,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FORMER-COMPANY": {
+     "in": 287,
+     "times": 500,
+     "most": 3,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000107681-96-000008.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 624,
+     "times": 624,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "FILED-FOR": {
+   "count": 48,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 48,
+     "times": 48,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "COMPANY-DATA": {
+     "in": 48,
+     "times": 48,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "FILING-VALUES": {
+     "in": 48,
+     "times": 48,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "FORMER-COMPANY": {
+     "in": 23,
+     "times": 25,
+     "most": 2,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-12-011114.corr01"
+    },
+    "MAIL-ADDRESS": {
+     "in": 48,
+     "times": 48,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    }
+   }
+  },
+  "FILER": {
+   "count": 12239,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 12119,
+     "times": 12119,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 12239,
+     "times": 12239,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "FILING-VALUES": {
+     "in": 12239,
+     "times": 12259,
+     "most": 2,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "FORMER-COMPANY": {
+     "in": 5089,
+     "times": 8472,
+     "most": 3,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 11765,
+     "times": 11765,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "TRANSFER-ADD": {
+     "in": 8,
+     "times": 8,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000932799-00-000008.corr01"
+    },
+    "TRANSFER-DELETE": {
+     "in": 8,
+     "times": 8,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000932799-00-000008.corr01"
+    }
+   }
+  },
+  "FILING-VALUES": {
+   "count": 17785,
+   "children": {
+    "ACT": {
+     "in": 16759,
+     "times": 16759,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILE-NUMBER": {
+     "in": 16753,
+     "times": 16753,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILM-NUMBER": {
+     "in": 16742,
+     "times": 16742,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FORM-TYPE": {
+     "in": 17785,
+     "times": 17785,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "TRANSFER-ADD": {
+     "in": 12,
+     "times": 12,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000315066-95-002257.corr01"
+    },
+    "TRANSFER-DELETE": {
+     "in": 12,
+     "times": 12,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000315066-95-002257.corr01"
+    }
+   }
+  },
+  "FORMER-COMPANY": {
+   "count": 12062,
+   "children": {
+    "DATE-CHANGED": {
+     "in": 12062,
+     "times": 12062,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "FORMER-CONFORMED-NAME": {
+     "in": 12062,
+     "times": 12062,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    }
+   }
+  },
+  "FORMER-NAME": {
+   "count": 162,
+   "children": {
+    "DATE-CHANGED": {
+     "in": 162,
+     "times": 162,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000702165-05-000083.nc"
+    },
+    "FORMER-CONFORMED-NAME": {
+     "in": 162,
+     "times": 162,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000702165-05-000083.nc"
+    }
+   }
+  },
+  "ISSUER": {
+   "count": 3413,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 3396,
+     "times": 3396,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 3413,
+     "times": 3413,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "FORMER-COMPANY": {
+     "in": 1622,
+     "times": 2352,
+     "most": 3,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 3267,
+     "times": 3267,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    }
+   }
+  },
+  "MAIL-ADDRESS": {
+   "count": 19874,
+   "children": {
+    "ADDRESS-IS-A-NON-US-LOCATION": {
+     "in": 195,
+     "times": 195,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "CITY": {
+     "in": 19863,
+     "times": 19863,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "NON-US-STATE-TERRITORY": {
+     "in": 34,
+     "times": 34,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "PROVINCE-COUNTRY": {
+     "in": 195,
+     "times": 195,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0002165894-26-000003.nc"
+    },
+    "STATE": {
+     "in": 19617,
+     "times": 19617,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "STREET1": {
+     "in": 19816,
+     "times": 19816,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "STREET2": {
+     "in": 9735,
+     "times": 9735,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "ZIP": {
+     "in": 19714,
+     "times": 19714,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "MERGER": {
+   "count": 11,
+   "children": {
+    "ACQUIRING-DATA": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    },
+    "TARGET-DATA": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    }
+   }
+  },
+  "MERGER-SERIES-AND-CLASSES-CONTRACTS": {
+   "count": 5,
+   "children": {
+    "MERGER": {
+     "in": 5,
+     "times": 11,
+     "most": 6,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    }
+   }
+  },
+  "NEW-CLASSES-CONTRACTS": {
+   "count": 3,
+   "children": {
+    "CLASS-CONTRACT": {
+     "in": 3,
+     "times": 3,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    },
+    "SERIES-ID": {
+     "in": 3,
+     "times": 3,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    },
+    "SERIES-NAME": {
+     "in": 3,
+     "times": 3,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    }
+   }
+  },
+  "NEW-SERIES": {
+   "count": 24,
+   "children": {
+    "CLASS-CONTRACT": {
+     "in": 24,
+     "times": 30,
+     "most": 3,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001162044-18-000691.corr01"
+    },
+    "SERIES-ID": {
+     "in": 24,
+     "times": 24,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001162044-18-000691.corr01"
+    },
+    "SERIES-NAME": {
+     "in": 24,
+     "times": 24,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001162044-18-000691.corr01"
+    }
+   }
+  },
+  "NEW-SERIES-AND-CLASSES-CONTRACTS": {
+   "count": 22,
+   "children": {
+    "NEW-CLASSES-CONTRACTS": {
+     "in": 3,
+     "times": 3,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    },
+    "NEW-SERIES": {
+     "in": 19,
+     "times": 24,
+     "most": 3,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001162044-18-000691.corr01"
+    },
+    "OWNER-CIK": {
+     "in": 22,
+     "times": 22,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    }
+   }
+  },
+  "OWNER-DATA": {
+   "count": 3699,
+   "children": {
+    "ASSIGNED-SIC": {
+     "in": 75,
+     "times": 75,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000031235-05-000051.nc"
+    },
+    "CIK": {
+     "in": 3699,
+     "times": 3699,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "CONFORMED-NAME": {
+     "in": 3699,
+     "times": 3699,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "FISCAL-YEAR-END": {
+     "in": 362,
+     "times": 362,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000007084-05-000108.nc"
+    },
+    "ORGANIZATION-NAME": {
+     "in": 655,
+     "times": 655,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001662991-26-000192.nc"
+    },
+    "STATE-OF-INCORPORATION": {
+     "in": 360,
+     "times": 360,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000007084-05-000108.nc"
+    }
+   }
+  },
+  "REPORTING-OWNER": {
+   "count": 3860,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 1211,
+     "times": 1211,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 161,
+     "times": 161,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "FILING-VALUES": {
+     "in": 3860,
+     "times": 3860,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "FORMER-COMPANY": {
+     "in": 10,
+     "times": 10,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000313395-01-500013.nc"
+    },
+    "FORMER-NAME": {
+     "in": 129,
+     "times": 162,
+     "most": 3,
+     "years": [
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000702165-05-000083.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 3365,
+     "times": 3365,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "OWNER-DATA": {
+     "in": 3699,
+     "times": 3699,
+     "most": 1,
+     "years": [
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    }
+   }
+  },
+  "SECURITIZER": {
+   "count": 6,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "FILING-VALUES": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    }
+   }
+  },
+  "SERIAL-COMPANY": {
+   "count": 4,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000950117-05-000932.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000950117-05-000932.nc"
+    },
+    "FILING-VALUES": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000950117-05-000932.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000950117-05-000932.nc"
+    }
+   }
+  },
+  "SERIES": {
+   "count": 1702,
+   "children": {
+    "CLASS-CONTRACT": {
+     "in": 1702,
+     "times": 3915,
+     "most": 43,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "OWNER-CIK": {
+     "in": 1680,
+     "times": 1680,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "SERIES-ID": {
+     "in": 1702,
+     "times": 1702,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "SERIES-NAME": {
+     "in": 1702,
+     "times": 1702,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    }
+   }
+  },
+  "SERIES-AND-CLASSES-CONTRACTS-DATA": {
+   "count": 642,
+   "children": {
+    "EXISTING-SERIES-AND-CLASSES-CONTRACTS": {
+     "in": 615,
+     "times": 615,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "MERGER-SERIES-AND-CLASSES-CONTRACTS": {
+     "in": 5,
+     "times": 5,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    },
+    "NEW-SERIES-AND-CLASSES-CONTRACTS": {
+     "in": 22,
+     "times": 22,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0001193125-12-234733.nc"
+    }
+   }
+  },
+  "SUBJECT-COMPANY": {
+   "count": 885,
+   "children": {
+    "BUSINESS-ADDRESS": {
+     "in": 883,
+     "times": 883,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "COMPANY-DATA": {
+     "in": 885,
+     "times": 885,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILING-VALUES": {
+     "in": 885,
+     "times": 885,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FORMER-COMPANY": {
+     "in": 414,
+     "times": 703,
+     "most": 3,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000315066-96-001316.nc"
+    },
+    "MAIL-ADDRESS": {
+     "in": 789,
+     "times": 789,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000107681-96-000008.nc"
+    },
+    "TRANSFER-ADD": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000315066-95-002257.corr01"
+    },
+    "TRANSFER-DELETE": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "2001"
+     ],
+     "example": "20010613.nc.tar.gz:0000315066-95-002257.corr01"
+    }
+   }
+  },
+  "SUBMISSION": {
+   "count": 14876,
+   "children": {
+    "ABS-ASSET-CLASS": {
+     "in": 132,
+     "times": 132,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000072971-12-000474.nc"
+    },
+    "ABS-RULE": {
+     "in": 86,
+     "times": 86,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000072971-12-000474.nc"
+    },
+    "ACCESSION-NUMBER": {
+     "in": 14876,
+     "times": 14876,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "ACTION-DATE": {
+     "in": 28,
+     "times": 28,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019"
+     ],
+     "example": "20120515.nc.tar.gz:9999999997-12-007736.nc"
+    },
+    "CATEGORY": {
+     "in": 1,
+     "times": 1,
+     "most": 1,
+     "years": [
+      "2019"
+     ],
+     "example": "20190612.nc.tar.gz:9999999997-19-005424.nc"
+    },
+    "CONFIRMING-COPY": {
+     "in": 7,
+     "times": 7,
+     "most": 1,
+     "years": [
+      "1996",
+      "2005",
+      "2012"
+     ],
+     "example": "19960315.nc.tar.gz:0000799233-96-000012.nc"
+    },
+    "CORRECTION": {
+     "in": 163,
+     "times": 163,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005"
+     ],
+     "example": "19960315.nc.tar.gz:0000023971-96-000002.corr01"
+    },
+    "DATE-OF-FILING-DATE-CHANGE": {
+     "in": 13286,
+     "times": 13286,
+     "most": 1,
+     "years": [
+      "1996",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000080051-94-000004.corr01"
+    },
+    "DELETION": {
+     "in": 27,
+     "times": 27,
+     "most": 1,
+     "years": [
+      "2005"
+     ],
+     "example": "20050311.nc.tar.gz:0000049401-05-000008.corr01"
+    },
+    "DEPOSITOR": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "DEPOSITOR-CIK": {
+     "in": 47,
+     "times": 47,
+     "most": 1,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0000929638-19-000626.nc"
+    },
+    "DOCUMENT": {
+     "in": 14876,
+     "times": 88435,
+     "most": 474,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "EFFECTIVENESS-DATE": {
+     "in": 4368,
+     "times": 4368,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000357052-96-000002.nc"
+    },
+    "FILED-BY": {
+     "in": 717,
+     "times": 717,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "FILED-FOR": {
+     "in": 46,
+     "times": 48,
+     "most": 2,
+     "years": [
+      "2012",
+      "2019"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "FILED-PURSUANT-TO-GENERAL-INSTRUCTION-A2": {
+     "in": 2,
+     "times": 2,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001213900-26-122653.nc"
+    },
+    "FILER": {
+     "in": 10537,
+     "times": 12239,
+     "most": 154,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "FILING-DATE": {
+     "in": 14876,
+     "times": 14876,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "GROUP-MEMBERS": {
+     "in": 50,
+     "times": 215,
+     "most": 16,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000912057-96-004612.nc"
+    },
+    "IS-FILER-A-NEW-REGISTRANT": {
+     "in": 2,
+     "times": 2,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001213900-26-122653.nc"
+    },
+    "IS-FILER-A-WELL-KNOWN-SEASONED-ISSUER": {
+     "in": 2,
+     "times": 2,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001213900-26-122653.nc"
+    },
+    "IS-FUND-24F2-ELIGIBLE": {
+     "in": 1,
+     "times": 1,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001213900-26-122653.nc"
+    },
+    "ISSUER": {
+     "in": 3413,
+     "times": 3413,
+     "most": 1,
+     "years": [
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20050311.nc.tar.gz:0000003370-05-000050.nc"
+    },
+    "ISSUING-ENTITY-NAME": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "2019"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "ITEMS": {
+     "in": 2277,
+     "times": 4357,
+     "most": 11,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000007973-96-000047.nc"
+    },
+    "MA-I_INDIVIDUAL": {
+     "in": 2,
+     "times": 2,
+     "most": 1,
+     "years": [
+      "2019"
+     ],
+     "example": "20190612.nc.tar.gz:0001650295-19-000004.nc"
+    },
+    "NO-ANNUAL-ACTIVITY": {
+     "in": 76,
+     "times": 76,
+     "most": 1,
+     "years": [
+      "2012"
+     ],
+     "example": "20120515.nc.tar.gz:0000072971-12-000474.nc"
+    },
+    "NO-INITIAL-PERIOD-ACTIVITY": {
+     "in": 3,
+     "times": 3,
+     "most": 1,
+     "years": [
+      "2012"
+     ],
+     "example": "20120515.nc.tar.gz:0000891092-12-002820.nc"
+    },
+    "NO-QUARTERLY-ACTIVITY": {
+     "in": 76,
+     "times": 76,
+     "most": 1,
+     "years": [
+      "2012"
+     ],
+     "example": "20120515.nc.tar.gz:0000072971-12-000474.nc"
+    },
+    "PAPER": {
+     "in": 504,
+     "times": 504,
+     "most": 1,
+     "years": [
+      "2005",
+      "2012",
+      "2019"
+     ],
+     "example": "20050311.nc.tar.gz:9999999997-05-009619.nc"
+    },
+    "PERIOD": {
+     "in": 11078,
+     "times": 11078,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000002691-96-000005.nc"
+    },
+    "PERIOD-START": {
+     "in": 329,
+     "times": 329,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000072971-12-000474.nc"
+    },
+    "PRIVATE-TO-PUBLIC": {
+     "in": 169,
+     "times": 169,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "PUBLIC-DOCUMENT-COUNT": {
+     "in": 14876,
+     "times": 14876,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "PUBLIC-REFERENCE-ACC": {
+     "in": 41,
+     "times": 41,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019"
+     ],
+     "example": "20120515.nc.tar.gz:0000000000-11-054633.corr01"
+    },
+    "PUBLIC-REL-DATE": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001493152-26-049638.corr01"
+    },
+    "RECEIVED-DATE": {
+     "in": 28,
+     "times": 28,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019"
+     ],
+     "example": "20120515.nc.tar.gz:9999999997-12-007736.nc"
+    },
+    "REFERENCE-462B": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "1996",
+      "2005"
+     ],
+     "example": "19960315.nc.tar.gz:0000950168-96-000432.nc"
+    },
+    "REFERENCES-429": {
+     "in": 11,
+     "times": 14,
+     "most": 3,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012"
+     ],
+     "example": "19960315.nc.tar.gz:0000836123-96-000015.nc"
+    },
+    "REGISTERED-ENTITY": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "REPORTING-OWNER": {
+     "in": 3574,
+     "times": 3860,
+     "most": 10,
+     "years": [
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20010613.nc.tar.gz:0000050471-01-500011.nc"
+    },
+    "SECURITIZER": {
+     "in": 6,
+     "times": 6,
+     "most": 1,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0001144204-19-030722.nc"
+    },
+    "SERIAL-COMPANY": {
+     "in": 4,
+     "times": 4,
+     "most": 1,
+     "years": [
+      "2005"
+     ],
+     "example": "20050311.nc.tar.gz:0000950117-05-000932.nc"
+    },
+    "SERIES-AND-CLASSES-CONTRACTS-DATA": {
+     "in": 642,
+     "times": 642,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20120515.nc.tar.gz:0000088053-12-000539.nc"
+    },
+    "SPONSOR-CIK": {
+     "in": 46,
+     "times": 46,
+     "most": 1,
+     "years": [
+      "2019",
+      "2026"
+     ],
+     "example": "20190612.nc.tar.gz:0000929638-19-000626.nc"
+    },
+    "SROS": {
+     "in": 652,
+     "times": 722,
+     "most": 5,
+     "years": [
+      "1996"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "SUBJECT-COMPANY": {
+     "in": 880,
+     "times": 885,
+     "most": 2,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    },
+    "TIMESTAMP": {
+     "in": 332,
+     "times": 332,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000023971-96-000002.corr01"
+    },
+    "TYPE": {
+     "in": 14876,
+     "times": 14876,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "19960315.nc.tar.gz:0000000000-96-001264.nc"
+    }
+   }
+  },
+  "TARGET-DATA": {
+   "count": 11,
+   "children": {
+    "CIK": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "1996",
+      "2001",
+      "2005",
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    },
+    "SERIES": {
+     "in": 11,
+     "times": 11,
+     "most": 1,
+     "years": [
+      "2012",
+      "2019",
+      "2026"
+     ],
+     "example": "20261120.nc.tar.gz:0001193125-26-470529.nc"
+    }
+   }
+  },
+  "TEXT": {
+   "count": 88161,
+   "children": {}
+  }
+ }
+}
