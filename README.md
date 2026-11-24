@@ -135,4 +135,5 @@ is to follow here.
 
 MIT for what was written here (see [LICENSE](LICENSE)). SEC's specification,
 what is taken from it, and the headers of filings in the tests are works of the
-United States government or public records, and are not covered by it.
+United States government or public records, and are not covered by it
+(see [NOTICE](NOTICE)).

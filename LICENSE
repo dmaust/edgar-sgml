@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-This license covers what was written for this repository: the working DTD and
-SGML declaration in dtd/, the tools, the tests and the documentation.
-
-It does not cover what is the United States Securities and Exchange
-Commission's: the specification in sec/pds_dissemination_spec.pdf and what is
-taken from it (sec/dtd-as-printed.txt, sec/tags.json), and the headers of
-filings in tests/fixtures/, which are public records from SEC's EDGAR system.
-Works of the United States government are not subject to copyright in the
-United States (17 U.S.C. 105).
