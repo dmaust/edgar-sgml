@@ -4,6 +4,10 @@ Every filing in EDGAR has a header in SGML: who filed, on what form, when, and
 which documents the filing holds. SEC publishes it in two places, and the DTD
 in `dtd/` reads both.
 
+For everything else SEC publishes (the APIs, the indexes, the bulk files) and
+the rules for fetching it, see
+[SEC's EDGAR data: where it is and how to read it](https://s6y.io/guide/data).
+
 ## The daily archives
 
 `https://www.sec.gov/Archives/edgar/Feed/{YYYY}/QTR{n}/{YYYYMMDD}.nc.tar.gz`

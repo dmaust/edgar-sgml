@@ -12,6 +12,13 @@ As printed, no parser can read that DTD, and once it is repaired enough to be
 read it accepts none of the headers SEC sends today. This repository has one
 that does.
 
+If you are new to EDGAR's files, two pages on [s6y.io](https://s6y.io), the
+site this was made for, give the surroundings:
+[SEC's EDGAR data: where it is and how to read it](https://s6y.io/guide/data)
+(every address, the formats, the rules for fetching) and
+[How EDGAR works](https://s6y.io/guide/edgar) (what a header's lines mean, and
+how a filing gets its date).
+
 ## How the two DTDs fare
 
 Each was given every header in six of SEC's daily archives, one day from each
@@ -130,6 +137,17 @@ as pages that are easy to read. The site first read headers with an SGML parser
 and a DTD patched by hand; this is that work done again from the beginning and
 checked. The site's own reader of headers and of whole submissions, in Python,
 is to follow here.
+
+The site is also a place to see what a header says, laid out for reading: the
+header fetched above is that of
+[CVS Health's annual report for 2025](https://s6y.io/c/cvs/10-K-20260210/list).
+Its guide has more for people who work with the filings by program:
+
+- [SEC's EDGAR data](https://s6y.io/guide/data): the folders, the APIs, the
+  nightly archives, and what has to be undone to get a document out of one
+- [How EDGAR works](https://s6y.io/guide/edgar): the path of a filing, the
+  clock it is filed against, and what can happen to it afterwards
+- [SEC forms explained](https://s6y.io/glossary): what each form is
 
 ## License
 
