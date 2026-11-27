@@ -81,10 +81,29 @@ The tools need Python 3.10 or later and nothing else.
 | `docs/files.md` | Where headers are found and what to do before parsing one |
 | `docs/differences.md` | Every difference from SEC's DTD, with the evidence |
 | `sec/` | SEC's specification, its DTD exactly as printed, the DTD repaired only as far as a parser needs, and its tag definitions as data |
+| `docs/documents.md` | What an archive does to a filing's documents, and how to get back the files SEC serves |
 | `tools/headers.py` | Cuts the header out of a submission (takes the documents' text away) |
+| `tools/documents.py` | Reads a submission's documents as SEC's site serves them: undoes the doubled full stops, the wrappers and the encoding |
+| `tools/compare.py` | Compares documents read from an archive with SEC's own copies |
 | `tools/validate.py` | Runs the parser over files, folders or daily archives and counts the errors by kind |
 | `tools/census.py` | Counts the tags in real headers without any DTD, and lists what a DTD lacks |
 | `tests/` | The tests, with 46 real headers that between them show every tag in every place it was found |
+
+## The documents too
+
+A daily archive holds every document of every filing, but not as SEC's site
+serves them: a full stop at the start of a line is doubled, PDF and XML are
+wrapped in a tag, binary files are encoded as text that Python's own decoder
+refuses. `tools/documents.py` gives back the files as SEC serves them:
+
+```sh
+python tools/documents.py out/ 20261120.nc.tar.gz    # out/{accession number}/{file name}
+```
+
+Checked against SEC's site: of 36 documents of twelve kinds from the archive
+of 24 November 2026, 19 were the same byte for byte and the other 17 but for
+blanks at line ends or what SEC's site itself adds.
+[docs/documents.md](docs/documents.md) has what is done and the evidence.
 
 ## Three things to know before parsing a header
 

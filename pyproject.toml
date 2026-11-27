@@ -1,7 +1,7 @@
 [project]
 name = "edgar-sgml"
-version = "0.1.0"
-description = "A working DTD for the SGML headers of SEC EDGAR filings, tested against real filings"
+version = "0.2.0"
+description = "A working DTD for the SGML headers of SEC EDGAR filings, and a reader for the documents in its daily archives, tested against real filings"
 readme = "README.md"
 license = "MIT"
 authors = [{ name = "David Maust" }]
