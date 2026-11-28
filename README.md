@@ -168,6 +168,10 @@ Its guide has more for people who work with the filings by program:
   clock it is filed against, and what can happen to it afterwards
 - [SEC forms explained](https://s6y.io/glossary): what each form is
 
+The site answers programs too: [For developers](https://s6y.io/developers)
+describes how to find a filing there and read its documents as text, free and
+with no key.
+
 ## License
 
 MIT for what was written here (see [LICENSE](LICENSE)). SEC's specification,
